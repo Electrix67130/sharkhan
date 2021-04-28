@@ -1,0 +1,105 @@
+/*
+Theme Name: Sharkhan
+Description: Theme enfant de Spintech. Vous pouvez maintenant effectuer vos modifications en toute sécurité.
+Author: Julien Schubnel
+Template: spintech
+Version: 1.0
+*/
+
+:root {
+    --bs-black: #000000;
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc221c;
+    --bs-orange: #fd7e14;
+    --bs-orange-dark: #ee4a34;
+    --bs-orange-dark-light: #fae4df;
+    --bs-yellow: #ffc107;
+    --bs-green: #28a745;
+    --bs-teal: #20c997;
+    --bs-cyan: #17a2b8;
+    --bs-white: #ffffff;
+    --bs-gray: #dedede;
+    --bs-gray-light: #f7f7f7;
+    --bs-gray-dark: #343a40;
+    --bs-primary: #f21137;
+    --bs-primary-dark: #025ce2;
+    --bs-primary-light: #f3f8fe;
+    --bs-primary-shadow: rgb(0 123 255 / 0.5);
+    --bs-secondary: #68020F;
+    --bs-secondary-dark: #393939;
+    --bs-gray-500: #f2f2f2;
+    --bs-gray-500-thumb: #c2c2c2;
+    --bs-success: #28a745;
+    --bs-info: #17a2b8;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #343a40;
+    --bs-font-sans-serif: "Montserrat",system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    --bs-font-awesome: "FontAwesome";
+    --bs-gradient: linear-gradient(180deg,rgba(255,255,255,0.15),rgba(255,255,255,0));
+    --bs-gradient-image: linear-gradient(180deg,rgba(255,255,255,0.15),rgba(255,255,255,0));
+    --bs-shadow: 2px 5px 20px rgba(0, 0, 0, .2);
+    --bs-radius: 0.1875rem;
+    --bs-transition: all .35s cubic-bezier(.645,.045,.355,1);
+    --bs-transition-slow: all .55s cubic-bezier(.645,.045,.355,1);
+    --bs-transition-very-slow: all .75s cubic-bezier(.645,.045,.355,1);
+}
+.footer-main > .container > .row {
+    padding: 60px 0;
+    border-width: 0;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-style: solid;
+    border-color: var(--bs-white);
+}
+.header-nav-white .main-navbar:not(.breadcrumb-menu) .main-menu > li.menu-item:not(.focus):not(.active):not(:hover) > a:not(:focus):not(:hover) {
+    color: black;
+}
+#info-section{
+	position: relative;
+	left: 8%
+}
+.main-menu > li:first-child {
+    background-image: url('http://localhost:8888/wp-content/uploads/2021/04/mn.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-right: 5px;
+}
+.main-menu > li:first-child a{
+    opacity:0;
+}
+.main-menu > li:first-child:hover {
+    background-image: url('http://localhost:8888/wp-content/uploads/2021/04/mr.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-right: 5px;
+}
+.fa-shopping-cart:before{
+	content: none;
+}
+.menu-collapsed{
+	border-radius: 20px;
+	width: 40px;
+}
+@media screen and (max-width: 992px){
+	.main-menu-right{
+	  display: none;
+	}
+	.main-navbar .main-menu >
+	.main-navbar .main-menu > li.menu-item > a {
+    padding: 0 0.1rem;
+	}
+}
+.row{
+	margin-left: calc(var(--bs-gutter-x)/ -0.6)
+}
+
+.main-navbar{
+	position: relative;
+	left: -100px;
+}

@@ -1,0 +1,163 @@
+0000.000 (0) Opened log file at time: Wed, 28 Apr 2021 07:21:50 +0000 on http://localhost:8888
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.53 WP: 5.7.1 PHP: 7.4.12 (apache2handler, Darwin iMac-de-Julien.local 19.6.0 Darwin Kernel Version 19.6.0: Mon Aug 31 22:12:52 PDT 2020; root:xnu-6153.141.2~1/RELEASE_X86_64 x86_64) MySQL: 5.7.32 WPLANG: fr_FR Server: Apache/2.4.46 (Unix) OpenSSL/1.0.2u PHP/7.4.12 mod_wsgi/3.5 Python/2.7.13 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.30.1 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 41.3M | 16.5M) multisite: N openssl: OpenSSL 1.0.2u  20 Dec 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.003 (0) Free space on disk containing Updraft's temporary directory: 937114.2 MB
+0000.005 (0) Tasks: Backup files: 1 (schedule: every2hours) Backup DB:  (schedule: everyhour)
+0000.006 (0) Processed schedules. Tasks now: Backup files: 1 Backup DB: 
+0000.008 (0) Requesting semaphore lock (f) (apparently via scheduler: last_scheduled_action_called_at=1619591805, seconds_ago=2705)
+0000.011 (0) Set semaphore last lock (f) time to 2021-04-28 07:21:50
+0000.012 (0) Semaphore lock (f) complete
+0000.016 (0) Backup run: resumption=0, nonce=3fd60f99dbda, file_nonce=3fd60f99dbda begun at=1619594510 (0s ago), job type=backup
+0000.018 (0) Scheduling a resumption (1) after 300 seconds (1619594810) in case this run gets aborted
+0000.030 (0) Checking if we have a zip executable available
+0000.031 (0) Testing: /usr/bin/zip
+0000.038 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.039 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.040 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.041 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.042 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.049 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.050 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.059 (0) Working binary zip found: /usr/bin/zip
+0000.061 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.062 (0) Creation of backups of directories: beginning
+0000.066 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.306 (0) Total entities for the zip file: 728 directories, 3598 files (0 skipped as non-modified), 77.3 MB
+0000.312 (0) Zip: backup_2021-04-28-0921_Sharkhan_3fd60f99dbda-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.318 (0) Zip: backup_2021-04-28-0921_Sharkhan_3fd60f99dbda-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.323 (0) Zip: backup_2021-04-28-0921_Sharkhan_3fd60f99dbda-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.329 (0) Zip: backup_2021-04-28-0921_Sharkhan_3fd60f99dbda-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.334 (0) Zip: backup_2021-04-28-0921_Sharkhan_3fd60f99dbda-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.340 (0) Zip: backup_2021-04-28-0921_Sharkhan_3fd60f99dbda-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.346 (0) Zip: backup_2021-04-28-0921_Sharkhan_3fd60f99dbda-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.351 (0) Zip: backup_2021-04-28-0921_Sharkhan_3fd60f99dbda-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.357 (0) Zip: backup_2021-04-28-0921_Sharkhan_3fd60f99dbda-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.363 (0) Zip: backup_2021-04-28-0921_Sharkhan_3fd60f99dbda-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.364 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (16.5 MB, 3598 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0000.963 (0) backup_2021-04-28-0921_Sharkhan_3fd60f99dbda-plugins.zip.tmp: size is now: 6.30 MB
+0000.970 (0) Zip: backup_2021-04-28-0921_Sharkhan_3fd60f99dbda-plugins.zip.tmp: 1100 files added (on-disk size: 6415.6 KB)
+0000.975 (0) Zip: backup_2021-04-28-0921_Sharkhan_3fd60f99dbda-plugins.zip.tmp: 1200 files added (on-disk size: 6415.6 KB)
+0000.981 (0) Zip: backup_2021-04-28-0921_Sharkhan_3fd60f99dbda-plugins.zip.tmp: 1300 files added (on-disk size: 6415.6 KB)
+0000.986 (0) Zip: backup_2021-04-28-0921_Sharkhan_3fd60f99dbda-plugins.zip.tmp: 1400 files added (on-disk size: 6415.6 KB)
+0000.991 (0) Zip: backup_2021-04-28-0921_Sharkhan_3fd60f99dbda-plugins.zip.tmp: 1500 files added (on-disk size: 6415.6 KB)
+0000.997 (0) Zip: backup_2021-04-28-0921_Sharkhan_3fd60f99dbda-plugins.zip.tmp: 1600 files added (on-disk size: 6415.6 KB)
+0001.001 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 3598 files batched, 672 (1673) added so far); re-opening (prior size: 6415.6 KB)
+0001.804 (0) backup_2021-04-28-0921_Sharkhan_3fd60f99dbda-plugins.zip.tmp: size is now: 11.50 MB
+0001.807 (0) A useful amount of data was added after this amount of zip processing: 1.3 s (normalised: 1.3 s, rate: 20417.9 KB/s)
+0001.809 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.2541511058807, normalised_time=1.2537987523877, max_time=1.8073770999908, data points known=1, old_max_bytes=26214400, new_max_bytes=125447883)
+0001.812 (0) Zip: backup_2021-04-28-0921_Sharkhan_3fd60f99dbda-plugins.zip.tmp: 1700 files added (on-disk size: 11726.4 KB)
+0001.817 (0) Zip: backup_2021-04-28-0921_Sharkhan_3fd60f99dbda-plugins.zip.tmp: 1800 files added (on-disk size: 11726.4 KB)
+0001.823 (0) Zip: backup_2021-04-28-0921_Sharkhan_3fd60f99dbda-plugins.zip.tmp: 1900 files added (on-disk size: 11726.4 KB)
+0001.828 (0) Zip: backup_2021-04-28-0921_Sharkhan_3fd60f99dbda-plugins.zip.tmp: 2000 files added (on-disk size: 11726.4 KB)
+0001.834 (0) Zip: backup_2021-04-28-0921_Sharkhan_3fd60f99dbda-plugins.zip.tmp: 2100 files added (on-disk size: 11726.4 KB)
+0001.839 (0) Zip: backup_2021-04-28-0921_Sharkhan_3fd60f99dbda-plugins.zip.tmp: 2200 files added (on-disk size: 11726.4 KB)
+0001.844 (0) Zip: backup_2021-04-28-0921_Sharkhan_3fd60f99dbda-plugins.zip.tmp: 2300 files added (on-disk size: 11726.4 KB)
+0001.850 (0) Zip: backup_2021-04-28-0921_Sharkhan_3fd60f99dbda-plugins.zip.tmp: 2400 files added (on-disk size: 11726.4 KB)
+0001.855 (0) Zip: backup_2021-04-28-0921_Sharkhan_3fd60f99dbda-plugins.zip.tmp: 2500 files added (on-disk size: 11726.4 KB)
+0001.861 (0) Zip: backup_2021-04-28-0921_Sharkhan_3fd60f99dbda-plugins.zip.tmp: 2600 files added (on-disk size: 11726.4 KB)
+0001.865 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (32.1 MB, 3598 files batched, 1001 (2674) added so far); re-opening (prior size: 11726.4 KB)
+0003.192 (0) backup_2021-04-28-0921_Sharkhan_3fd60f99dbda-plugins.zip.tmp: size is now: 21.10 MB
+0003.198 (0) Zip: backup_2021-04-28-0921_Sharkhan_3fd60f99dbda-plugins.zip.tmp: 2700 files added (on-disk size: 21619.9 KB)
+0003.204 (0) Zip: backup_2021-04-28-0921_Sharkhan_3fd60f99dbda-plugins.zip.tmp: 2800 files added (on-disk size: 21619.9 KB)
+0003.210 (0) Zip: backup_2021-04-28-0921_Sharkhan_3fd60f99dbda-plugins.zip.tmp: 2900 files added (on-disk size: 21619.9 KB)
+0003.217 (0) Zip: backup_2021-04-28-0921_Sharkhan_3fd60f99dbda-plugins.zip.tmp: 3000 files added (on-disk size: 21619.9 KB)
+0003.222 (0) Zip: backup_2021-04-28-0921_Sharkhan_3fd60f99dbda-plugins.zip.tmp: 3100 files added (on-disk size: 21619.9 KB)
+0003.228 (0) Zip: backup_2021-04-28-0921_Sharkhan_3fd60f99dbda-plugins.zip.tmp: 3200 files added (on-disk size: 21619.9 KB)
+0003.235 (0) Zip: backup_2021-04-28-0921_Sharkhan_3fd60f99dbda-plugins.zip.tmp: 3300 files added (on-disk size: 21619.9 KB)
+0003.241 (0) Zip: backup_2021-04-28-0921_Sharkhan_3fd60f99dbda-plugins.zip.tmp: 3400 files added (on-disk size: 21619.9 KB)
+0003.247 (0) Zip: backup_2021-04-28-0921_Sharkhan_3fd60f99dbda-plugins.zip.tmp: 3500 files added (on-disk size: 21619.9 KB)
+0004.108 (0) Created plugins zip (0) - 23144.4 KB in 4 s (5728.9 KB/s) (sha1: 96ee8bb24dcd1f7218174ae8348bce886dfb55a8, sha256: 4ee979f3e61b7374ed008e1a69edaee819d4f808ce31532c7bd11c5364825659)
+0004.111 (0) Beginning creation of dump of themes (split every: 400 MB)
+0004.170 (0) Total entities for the zip file: 204 directories, 768 files (0 skipped as non-modified), 18 MB
+0004.175 (0) Zip: backup_2021-04-28-0921_Sharkhan_3fd60f99dbda-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0004.181 (0) Zip: backup_2021-04-28-0921_Sharkhan_3fd60f99dbda-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0004.187 (0) Zip: backup_2021-04-28-0921_Sharkhan_3fd60f99dbda-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0004.192 (0) Zip: backup_2021-04-28-0921_Sharkhan_3fd60f99dbda-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0004.198 (0) Zip: backup_2021-04-28-0921_Sharkhan_3fd60f99dbda-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0004.204 (0) Zip: backup_2021-04-28-0921_Sharkhan_3fd60f99dbda-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0004.210 (0) Zip: backup_2021-04-28-0921_Sharkhan_3fd60f99dbda-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0004.695 (0) backup_2021-04-28-0921_Sharkhan_3fd60f99dbda-themes.zip.tmp: size is now: 11.30 MB
+0004.967 (0) Created themes zip (0) - 11576.8 KB in 0.9 s (13555.1 KB/s) (sha1: 5637a2bfd9969400de343a69bae85f4e4a882851, sha256: 261381e7b6c7dc179e9293a120afb9eb97051bbeaaacc52b42af60110c8f260c)
+0004.971 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0004.972 (0) Looking for candidates to backup in: /Users/julien/Documents/web/website/wp-content/uploads
+0004.973 (0) finding files: ur-logs: adding to list (1)
+0004.974 (0) finding files: elementor: adding to list (2)
+0004.975 (0) finding files: 2021: adding to list (3)
+0004.976 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0004.993 (0) Total entities for the zip file: 6 directories, 260 files (0 skipped as non-modified), 52.4 MB
+0004.998 (0) Zip: backup_2021-04-28-0921_Sharkhan_3fd60f99dbda-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0005.004 (0) Zip: backup_2021-04-28-0921_Sharkhan_3fd60f99dbda-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0005.419 (0) backup_2021-04-28-0921_Sharkhan_3fd60f99dbda-uploads.zip.tmp: size is now: 51.90 MB
+0006.669 (0) Created uploads zip (0) - 53164.6 KB in 1.7 s (31437.3 KB/s) (sha1: f7710d22ff66bf1d579a03a582ec6e1a443655e2, sha256: 8e9713557928141f482da0750c087c599fdde83d5f3bf60c1a72814d55f4597f)
+0006.672 (0) Beginning backup of other directories found in the content directory (index: 0)
+0006.673 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0006.674 (0) Looking for candidates to backup in: /Users/julien/Documents/web/website/wp-content
+0006.675 (0) finding files: upgrade: skipping: excluded by options
+0006.676 (0) finding files: .DS_Store: adding to list (1)
+0006.677 (0) finding files: index.php: adding to list (2)
+0006.678 (0) finding files: plugins: skipping: this is the plugins directory
+0006.679 (0) finding files: uploads: skipping: this is the uploads directory
+0006.680 (0) finding files: updraft: skipping: this is the updraft directory
+0006.681 (0) finding files: languages: adding to list (3)
+0006.682 (0) finding files: themes: skipping: this is the themes directory
+0006.690 (0) Total entities for the zip file: 3 directories, 94 files (0 skipped as non-modified), 3.7 MB
+0006.867 (0) backup_2021-04-28-0921_Sharkhan_3fd60f99dbda-others.zip.tmp: size is now: 1.10 MB
+0006.898 (0) Created others zip (0) - 1098.3 KB in 0.2 s (5115.1 KB/s) (sha1: 48a14e0f6cd76ea672fb6b477e8cef38a7a4bc96, sha256: ee046c600d3f8d7fceb5865763d006e58c3ec7d98ecc73ed6795b34da8aa5109)
+0006.904 (0) Saving backup status to database (elements: 8)
+0006.907 (0) No database backup (wp) - not part of this run
+0006.909 (0) backup_2021-04-28-0921_Sharkhan_3fd60f99dbda-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0006.910 (0) backup_2021-04-28-0921_Sharkhan_3fd60f99dbda-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0006.911 (0) backup_2021-04-28-0921_Sharkhan_3fd60f99dbda-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0006.912 (0) backup_2021-04-28-0921_Sharkhan_3fd60f99dbda-others.zip: others: This file has not yet been successfully uploaded: will queue
+0006.913 (0) Saving backup history. Total backup size: 86.9 MB
+0006.916 (0) Requesting upload of the files that have not yet been successfully uploaded (4)
+0006.919 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0006.920 (0) No remote despatch: user chose no remote backup service
+0006.921 (0) Recording as successfully uploaded: backup_2021-04-28-0921_Sharkhan_3fd60f99dbda-plugins.zip
+0006.923 (0) Recording as successfully uploaded: backup_2021-04-28-0921_Sharkhan_3fd60f99dbda-themes.zip
+0006.924 (0) Recording as successfully uploaded: backup_2021-04-28-0921_Sharkhan_3fd60f99dbda-uploads.zip
+0006.926 (0) Recording as successfully uploaded: backup_2021-04-28-0921_Sharkhan_3fd60f99dbda-others.zip
+0006.929 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0006.930 (0) Number of backup sets in history: 5; groups (db): 1
+0006.931 (0) Examining (for databases) backup set with group_id=0, nonce=3fd60f99dbda, datestamp=1619594510 (Apr 28 2021 07:21:50)
+0006.932 (0) Examining (for databases) backup set with group_id=0, nonce=2066685f98b1, datestamp=1619591820 (Apr 28 2021 06:37:00)
+0006.932 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0006.933 (0) Examining (for databases) backup set with group_id=0, nonce=f577508c39ed, datestamp=1619591805 (Apr 28 2021 06:36:45)
+0006.933 (0) Examining (for databases) backup set with group_id=0, nonce=be4e66aa4e72, datestamp=1619532889 (Apr 27 2021 14:14:49)
+0006.933 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0006.933 (0) Examining (for databases) backup set with group_id=0, nonce=b52be2cbc497, datestamp=1619529306 (Apr 27 2021 13:15:06)
+0006.933 (0) Number of backup sets in history: 5; groups (files): 1
+0006.934 (0) Examining (for files) backup set with nonce=3fd60f99dbda, datestamp=1619594510 (Apr 28 2021 07:21:50)
+0006.934 (0) This backup set is the backup set just made, so will not be deleted.
+0006.935 (0) This backup set is the backup set just made, so will not be deleted.
+0006.936 (0) This backup set is the backup set just made, so will not be deleted.
+0006.936 (0) This backup set is the backup set just made, so will not be deleted.
+0006.936 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0006.937 (0) Examining (for files) backup set with nonce=2066685f98b1, datestamp=1619591820 (Apr 28 2021 06:37:00)
+0006.937 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0006.938 (0) Examining (for files) backup set with nonce=f577508c39ed, datestamp=1619591805 (Apr 28 2021 06:36:45)
+0006.938 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0006.939 (0) Examining (for files) backup set with nonce=be4e66aa4e72, datestamp=1619532889 (Apr 27 2021 14:14:49)
+0006.939 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0006.940 (0) Examining (for files) backup set with nonce=b52be2cbc497, datestamp=1619529306 (Apr 27 2021 13:15:06)
+0006.940 (0) plugins: over retain limit (2); will delete this file entity
+0006.940 (0) themes: over retain limit (2); will delete this file entity
+0006.940 (0) uploads: over retain limit (2); will delete this file entity
+0006.940 (0) others: over retain limit (2); will delete this file entity
+0006.940 (0) Delete file: backup_2021-04-27-1515_Sharkhan_b52be2cbc497-plugins.zip, service=none
+0006.941 (0) Deleting local copy (backup_2021-04-27-1515_Sharkhan_b52be2cbc497-plugins.zip)
+0006.942 (0) Delete file: backup_2021-04-27-1515_Sharkhan_b52be2cbc497-themes.zip, service=none
+0006.943 (0) Deleting local copy (backup_2021-04-27-1515_Sharkhan_b52be2cbc497-themes.zip)
+0006.943 (0) Delete file: backup_2021-04-27-1515_Sharkhan_b52be2cbc497-uploads.zip, service=none
+0006.944 (0) Deleting local copy (backup_2021-04-27-1515_Sharkhan_b52be2cbc497-uploads.zip)
+0006.945 (0) Delete file: backup_2021-04-27-1515_Sharkhan_b52be2cbc497-others.zip, service=none
+0006.946 (0) Deleting local copy (backup_2021-04-27-1515_Sharkhan_b52be2cbc497-others.zip)
+0006.948 (0) This backup set is now empty; will remove from history
+0006.949 (0) Deleting log file (log.b52be2cbc497.txt)
+0006.950 (0) Retain: saving new backup history (sets now: 4) and finishing retain operation
+0006.954 (0) Resume backup (3fd60f99dbda, 0): finish run
+0006.956 (0) Decremented the semaphore (f) by 1
+0006.957 (0) Semaphore (f) unlocked
+0006.958 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0006.961 (0) The backup apparently succeeded and is now complete
+0006.962 (0) No email will/can be sent - the user has not configured an email address.
+0006.962 (0) La sauvegarde a apparemment réussi et est maintenant terminée
